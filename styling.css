@@ -1,0 +1,90 @@
+main {display: flex;width:80%;height: 100%;background-color: white;padding: 0;}
+body {width: 800px;}
+form {width: 100%;}
+#side {width: 5%; height: 100%;color: blue;background-color:dodgerblue;position:fixed;padding: 0;}
+#MainForm {display: flex;width: 95%;}
+#Login {padding-left: 30%;}
+h2 {color: dodgerblue;font-family:sans-serif;font-size: 20px;}
+hr {opacity: 20%;}
+
+input,label {display: block}
+
+#area {display: flex;padding:0px; position:relative;}
+#Bottom {display: flex;position:relative; bottom:5px}
+#R {position:relative; top:12px;}
+
+
+#right {padding-left:0px;display: inline-block;}
+label {font-size: 11px;opacity: 40%;font-family: sans-serif;}
+input[type='text'],[type='email'],[type='tel'],#Countries,#States,#Cities {
+    border:none; border-bottom: 2px solid rgba(190, 188, 188,.3);width: 180px;
+}
+#Countries {width: 170px}
+
+
+#Cities, #States {width: 80px;}
+#Cities {padding-right: 0px;}
+
+#C {padding-left: 20px;padding-right: 10px;}
+#S {padding-right: 0px;}
+#buttons {padding-top: 10px;height: 20px;display: inline-block;width: 100%;}
+
+
+
+
+
+#reset {border: none;background-color: inherit;opacity: 25%;}
+#sContinue {float:right;height: 100%;}
+#Continue {background-color: dodgerblue;border-radius: 20px;color: white;padding: 7px;padding-left: 10px;padding-right: 10px; border:none}
+#sReset {float:left;;height: 100%;padding: 6px;}
+#buttons {padding-top: 20px;}
+
+.edits:focus-within input[type='text'],.edits:focus-within [type='email'],.edits:focus-within [type='tel'],.edits:focus-within #Countries,.edits:focus-within #States,.edits:focus-within #Cities {
+    outline:none; border:none; border-bottom: 2px solid rgb(30, 144, 255,0.5)}
+
+    div:focus-within label {
+    color:dodgerblue;opacity: 100%;}
+
+
+
+
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display:flex;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0px;
+  }
+
+
+div i {position: absolute;}
+div {margin-bottom: 10px;}
+
+
+
+
+input[type='text']:invalid,[type='email']:invalid,[type='tel']:invalid,#Countries:invalid,#States:invalid,#Cities:invalid
+{
+    border-bottom:2px solid rgb(233, 14, 14,0.5);
+  
+}
+
+.fa.fa-lock, .fa.fa-check
+{
+    position: relative;
+    width: 100%;
+    min-width: 40px;
+    visibility: hidden;
+}
+
+
+.fa.fa-check {color:rgb(7, 211, 99);}
+      
+
+label {padding: 0px;}
+#FirstName {padding-top: 0px;}
+.input-container {padding: 0px;}
+
+
+
